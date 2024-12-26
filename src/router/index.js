@@ -1,5 +1,6 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
+import WeatherApp from '../views/WeatherApp.vue'
 
 const routes = [
   {
@@ -7,6 +8,12 @@ const routes = [
     name: 'home',
     component: HomeView
   },
+  {
+    path: '/WeatherApp',
+    name: 'WeatherApp',
+    component: WeatherApp
+  },
+  
   {
     path: '/about',
     name: 'about',
